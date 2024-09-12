@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s ease-in-out;
+}
+:root {
+	--body_background: #101010;
+	--body_color: #fff;
+	--heading-color: #fffe400;
+}
+[data-theme="light"] {
+	--body_background: #fff;
+	--body_color: #000;
+	--heading-color: #000;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--body_background);
+	color: var(--body_color);
+}
+
+.align_center {
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,34 @@
+.movie_list_header{
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.movie_list_heading{
+    font-size: 26px;
+    color: var(--heading-color);
+}
+
+.movie_filter{
+    list-style: none;
+    font-size: 16px;
+}
+
+
+.movie_sorting{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: inherit;
+    height: 30px;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+
+.movie_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
